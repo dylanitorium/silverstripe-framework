@@ -191,6 +191,14 @@ class DataQuery
         $this->queriedColumns = $queriedColumns;
         return $this;
     }
+    
+    /**
+     * @return array The DataQuery's queried columns array
+     */
+    public function getQueriedColumns()
+    {
+        return $this->queriedColumns;
+    }
 
     /**
      * Ensure that the query is ready to execute.
