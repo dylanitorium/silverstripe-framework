@@ -163,7 +163,7 @@ class DataQuery {
 		$this->queriedColumns = $queriedColumns;
 	}
 	
-	public function getQueriedColumns($queriedColumns) {
+	public function getQueriedColumns() {
 		return $this->queriedColumns;
 	}
 
