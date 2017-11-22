@@ -162,6 +162,10 @@ class DataQuery {
 	public function setQueriedColumns($queriedColumns) {
 		$this->queriedColumns = $queriedColumns;
 	}
+	
+	public function getQueriedColumns() {
+		return $this->queriedColumns;
+	}
 
 	/**
 	 * Ensure that the query is ready to execute.
